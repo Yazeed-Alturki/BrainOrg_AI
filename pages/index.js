@@ -51,14 +51,14 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <div className={styles.card}>
-        <h1 className={styles.heading}>Mind Map Creator</h1>
-        <h2 className={styles.subheading}>Transform Your Thoughts</h2>
+        <h1 className={styles.heading}>BrainDump AI</h1>
+        <h2 className={styles.subheading}>Transform Your Thoughts & Transition to Peace</h2>
         <p className={styles.info}>
-          Pour out your scattered thoughts and let us organize them into clear, actionable insights.
+          Pour out your scattered thoughts and get them organized them into clear, actionable workflows.
         </p>
         <textarea 
           className={styles.inputBox} 
-          placeholder="Share your thoughts, ideas, or concerns here... We'll help you make sense of them." 
+          placeholder="Dump your thoughts, ideas, or concerns here... We'll help you make sense of them." 
           rows="10" /* Increased rows for better input space */
           maxLength={1000} /* Limit input to 1000 characters */
           value={braindump}
