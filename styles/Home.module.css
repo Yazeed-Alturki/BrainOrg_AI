@@ -60,14 +60,14 @@
 
 .subheading {
     color: #c76b98;
-    font-size: 1.8rem; /* Slightly reduced font size */
+    font-size: 1.5rem; /* Slightly reduced font size */
     font-weight: 400;
     margin-bottom: 0.8rem;
 }
 
 .info {
     color: #270f36;
-    font-size: 1.4rem; /* Slightly reduced font size */
+    font-size: 1.1rem; /* Slightly reduced font size */
     font-weight: 300;
     margin-bottom: 1rem;
     line-height: 1.4;
