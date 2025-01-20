@@ -1,3 +1,5 @@
+// filepath: /Users/yazeedalturki/Desktop/BrainOrg_AI/pages/index.js
+
 import React, { useState, useEffect, useRef } from 'react';
 import styles from '../styles/Home.module.css';
 import mermaid from 'mermaid';
@@ -51,14 +53,14 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <div className={styles.card}>
-        <h1 className={styles.heading}>BrainDump AI</h1>
-        <h2 className={styles.subheading}>Transform Your Thoughts & Transition to Peace</h2>
+        <h1 className={styles.heading}>منظم الأفكار الذكي</h1>
+        <h2 className={styles.subheading}>حول أفكارك إلي خطط عمل واضحة</h2>
         <p className={styles.info}>
-          Pour out your scattered thoughts and get them organized them into clear, actionable workflows.
+        .اكتب أفكارك المتناثرة ونظمها في خطط عمل واضحة وقابلة للتنفيذ
         </p>
         <textarea 
           className={styles.inputBox} 
-          placeholder="Dump your thoughts, ideas, or concerns here... We'll help you make sense of them." 
+          placeholder=".افرغ أفكارك أو خواطرك أو مخاوفك هنا... سنساعدك على فهمها وتنظيمها" 
           rows="10" /* Increased rows for better input space */
           maxLength={1000} /* Limit input to 1000 characters */
           value={braindump}

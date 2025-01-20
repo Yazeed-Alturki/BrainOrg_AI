@@ -1,4 +1,4 @@
-// filepath: /Users/yazeedalturki/Desktop/BrainOrg_AI/transform/pages/_app.js
+// filepath: /Users/yazeedalturki/Desktop/BrainOrg_AI/pages/_app.js
 import '../styles/global.css';
 import { useEffect } from 'react';
 import mermaid from 'mermaid';
