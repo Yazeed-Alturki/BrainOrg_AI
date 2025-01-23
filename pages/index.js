@@ -74,7 +74,7 @@ const Home = () => {
               <div className={styles.doubleBounce2}></div>
             </div>
           ) : (
-            'Transform'
+            'ابدأ عملية التحويل'
           )}
         </button>
       </div>
